@@ -10,11 +10,11 @@ public class Main {
 //		Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 //			The field RWOnly.Name is not visible
 //
-		rw.SetRWOnly(1);
-		rw.SetRWOnly("Akanksha");
+		rw.setId(1);
+		rw.setName("Akanksha");
 		
-		System.out.println(rw.GetRWOnly());
-		System.out.println(rw.getRWOnly());
+		System.out.println(rw.getId());
+		System.out.println(rw.getName());
 		
 	}
 }

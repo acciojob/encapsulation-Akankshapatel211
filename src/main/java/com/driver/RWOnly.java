@@ -4,19 +4,18 @@ public class RWOnly {
 	
 	private  int Id;
 	private String Name ;
+	public int getId() {
+		return Id;
+	}
+	public void setId(int id) {
+		Id = id;
+	}
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
 	
-    public void  SetRWOnly(int Id){
-	  	this.Id=Id;
-	}
-    public void  SetRWOnly(String Name){
-	  	this.Name=Name;
-	}
-    public int GetRWOnly() {
-    	return Id;
-    }
-    public String getRWOnly() {
-
-    	return Name;
-    }
-    
+   
 }
